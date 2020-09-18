@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    background-image: url(../image/family2.jpeg);
+    background-size: cover;
+    display: flex;
+}
+.container {
+    width: 300px;
+    margin: auto;
+    background-color: rgba(220, 220, 220, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#app1 h1, #app2 h1, #app3 h1 {
+    font-size: 20px;
+    border-bottom: 1px solid #a9a9a9;
+    padding: 10px;
+}
+#app1 li, #app2 li, #app3 li {
+    line-height: 1.5;
+}
+#app1 input[type="text"], #app2 input[type="text"], #app3 input[type="text"] {
+    padding: 2px;
+}
+.command {
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+#app1 ul, #app2 ul, #app3 ul {
+    padding: 0;
+    list-style: none;
+}
+#app1 li > span.done, #app2 li > span.done, #app3 li > span.done {
+    text-decoration: line-through;
+    color: #bbb;
+}
+.info {
+    color: #bbb;
+    font-size: 12px;
+    font-weight: normal;
+}
+#app1 h1 > button, #app2 h1 > button, #app3 h1 > button {
+    float: right;
+}
